@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.response {
+  margin-top: 20px;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center; /* Set text alignment to right */
+  direction: rtl; /* Set direction to RTL */
+  color: #61dafb;
+  font-family: 'Amiri', serif; /* Use Amiri font */
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
